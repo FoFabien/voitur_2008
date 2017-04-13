@@ -1,0 +1,35 @@
+
+ROM used: 246 (3%)
+          2048 (26%) including unused fragments
+
+          1 Average locations per line
+          5 Average locations per statement
+
+RAM used: 22 (14%) at main() level
+          24 (15%) worst case
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   80    46 100  C:\TS2\Denys_Forest\voiture_RC2.c
+  281     0   0  C:\Program Files\PICC\devices\16F877A.h
+----- -----
+  722    92 Total
+
+Page ROM  %  RAM  Functions:
+---- --- --- ---  ----------
+0     19   8   1  @delay_ms1
+0      8   3   0  tmer0_int
+0     55  22   0  main
+0      8   3   0  @goto10043
+0     62  25   1  init
+0     43  17   1  trans
+
+ Segment   Used  Free
+---------  ----  ----
+00000-00003     4  0
+00004-00032    47  0
+00033-007FF   195  1802
+00800-00FFF     0  2048
+01000-017FF     0  2048
+01800-01ED5     0  1750
+
